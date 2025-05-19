@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:765px) {
+
+    nav.nav-bar a.nav-logo {
+        overflow: hidden;
+        color: white;
+        display: block;
+        float: left;
+        clear: right;
+        width: 92%;
+        text-align: center;
+        font-size: 20px;
+        margin: 10px;
+    }
+    
+    img.blogposttemplate-content-image {
+        width: 100%;
+    }
+
+    div.blogposttemplate-content-box {
+        width: 580px;
+    }
+
+    h2.contactpage-content-title {
+        font-size: 22px;
+        padding: 30px 0px 30px 0px;
+        text-align: center;
+    }
+
+    label.contactpage-form-labels {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    h1.loginpage-main-title1 {
+        font-size: 30px;
+        margin: auto;
+        font-weight: bold;
+        color: white;
+    }
+
+    label.loginpage-form-labels {
+        font-weight: bold;
+        color: white;
+        font-size: 22px;
+    }
+
+    input.loginpage-form-inputs {
+        margin: 10px 0px;
+        padding: 10px;
+        width: 300px;
+        border: 2px solid teal;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    input.loginpage-form-btns {
+        margin: 5px;
+        padding: 15px 40px 15px 40px;
+        background-color: teal;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 2px solid white;
+    }
+
+    div.loginpage-main-box {
+        border: 3px solid white;
+        border-radius: 10px;
+        display: inline-block;
+        width: 450px;
+        margin: 130px 0px;
+        padding: 50px 80px;
+        background-color: black;
+        opacity: 0.95;
+        padding-right: 0px;
+    }
+
+        h1.signuppage-main-title1 {
+        font-size: 30px;
+        margin: auto;
+        font-weight: bold;
+        color: white;
+    }
+
+    label.signuppage-form-labels {
+        font-weight: bold;
+        color: white;
+        font-size: 22px;
+    }
+
+    input.signuppage-form-inputs {
+        margin: 10px 0px;
+        padding: 10px;
+        width: 300px;
+        border: 2px solid teal;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    input.signuppage-form-btns {
+        margin: 5px;
+        padding: 15px 40px 15px 40px;
+        background-color: teal;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 2px solid white;
+    }
+
+    div.signuppage-main-box {
+        border: 3px solid white;
+        border-radius: 10px;
+        display: inline-block;
+        width: 450px;
+        margin: 130px 0px;
+        padding: 50px 80px;
+        background-color: black;
+        opacity: 0.95;
+        padding-right: 0px;
+    }
+
+    div.aboutpage-content-left {
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #cfb7b7;
+        padding-left: 150px;
+    }
+
+    img.aboutpage-content-image-left {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 50px;
+        width: 350px;
+    }
+
+    h2.aboutpage-content-title-right {
+        margin: 20px;
+        font-size: 26px;
+    }
+
+    hr.aboutpage-content-separator-right {
+        width: 12%;
+        margin-left: 25px;
+        border: 2px solid black;
+    }
+
+    p.aboutpage-content-info-right {
+        margin: 20px;
+        font-size: 18px;
+    }
+
+    a.aboutpage-content-info-links-socialmedia {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 10px;
+        color: #008080;
+    }
+
+    input.contactpage-form-inputs {
+        margin: 10px;
+        padding: 10px;
+        width: 500px;
+        border: 2px solid teal;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+
+    textarea.contactpage-form-textarea {
+        margin: 10px;
+        width: 520px;
+        border: 2px solid teal;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+
+    main div.aboutpage {
+        padding: 325px 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    main div.contactpage {
+        padding: 325px 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    nav.nav-bar a.nav-items {
+        overflow: hidden;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        width: 95%;
+        display: block;
+        float: left;
+        border-top: 2px solid white;
+        padding-top: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    header nav.nav-bar {
+        overflow: hidden;
+        background-color: teal;
+        height: 425px;
+    }
+
+    div.pagebanner-box h1.pagebanner-title {
+        margin: 20px 0px;
+        color: white;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    span.pagebanner-text {
+        margin: 20px -10px 0px 0px;
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    div.pagebanner-box input.pagebanner-btn {
+        margin: 0px 80px;
+    }
+
+    h1.blogsect-content-title,
+    h1.skillspage-content-title {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    p.blogpage-content-title,
+    h2.skillspage-content-cols-title {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    footer.footer-bar {
+        overflow: hidden;
+        height: 25px;
+        text-align: center;
+        padding: 30px 0px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+}
+
+@media only screen and (max-width:1107px) {
+
+    div.pagebanner-box input.pagebanner-btn {
+        margin: 0px 115px;
+    }
+
+    main div.homepage {
+        padding: 300px 245px;
+        background-color: cadetblue;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    div.contactpage div.contactpage-box {
+        width: 400px;
+    }
+
+    div.blogpage div.blogpage-box {
+        width: 300px;
+    }
+
+    div.skillspage div.skillspage-box {
+        width: 250px;
+    }
+
+    div.aboutpage div.aboutpage-box {
+        width: 380px;
+    }
+
+}
+
+@media only screen and (max-width:945px) {
+    
+    div.servicespage div.servicespage-box {
+        width: 300px;
+    }
+
+}
+
+@media only screen and (max-width:1000px) {
+    
+    div.homepage div.pagebanner-box {
+        border: 1px solid black;
+        padding: 20px;
+        background-color: black;
+        opacity: 0.80;
+        border-radius: 10px;
+        width: 150%;
+    }
+
+    main div.homepage {
+        padding: 280px 415px 280px 200px;
+        background-color: cadetblue;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-position: center;
+    }
+
+    div.pagebanner-box hr.pagebanner-separator {
+        width: 20%;
+        border: 2px solid white;
+        margin-left: 115px;
+    }
+
+}
+
+@media only screen and (max-width:825px) {
+    
+    div.homepage div.pagebanner-box {
+        border: 1px solid black;
+        padding: 20px 80px;
+        background-color: black;
+        opacity: 0.80;
+        border-radius: 10px;
+        width: 150%;
+    }
+
+}
+
+@media only screen and (max-width:825px) {
+    
+    div.homepage div.pagebanner-box {
+        width: 200%;
+    }
+
+}
+
+@media only screen and (max-width:730px) {
+    
+    div.homepage div.pagebanner-box {
+        padding: 20px 100px;
+    }
+
+}
+
+@media only screen and (max-width:715px) {
+    
+    div.homepage div.pagebanner-box {
+        padding: 20px 125px;
+        padding-left: 0px;
+    }
+
+    div.homepage div.pagebanner-box {
+        margin-left: -100px;
+        padding: 20px 300px 20px 0px;
+    }
+
+}
+
+@media only screen and (max-width:714px) {
+    
+    div.pagebanner-box h1.pagebanner-title {
+        margin: 20px 0px;
+        color: white;
+        font-size: 28px;
+        text-align: center;
+        margin-left: 200px;
+        display: flex;
+    }
+
+    div.pagebanner-box hr.pagebanner-separator {
+        margin: 20px 0px;
+        color: white;
+        margin-left: 250px;
+        display: block;
+    }
+
+    span.pagebanner-text {
+        margin: 20px -10px 0px 0px;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 200px;
+    }
+
+    div.pagebanner-box input.pagebanner-btn {
+        margin: 0px 160px;
+    }
+    
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="ozair, inzaman, personal, portfolio, website" />
+  <meta name="description" content="Welcome to the personal portfolio of Ozair Inzaman" />
+  <title>Ozair Inzaman | Contact Me</title>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/desktop.css" />
+  <link rel="stylesheet" href="styles/tablet.css" />
+  <link rel="stylesheet" href="styles/mobile.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <a href="index.html" class="nav-logo">Ozair Inzaman</a>
+      <a href="index.html" class="nav-items">Home</a>
+      <a href="blog.html" class="nav-items">Blog</a>
+      <a href="skills.html" class="nav-items">Skills</a>
+      <a href="services.html" class="nav-items">Services</a>
+      <a href="about.html" class="nav-items">About</a>
+      <a href="contact.html" class="nav-items active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="contactpage-main">
+    <div style="background-image: url('images/contact-page-banner.gif'); opacity: 0.90;" class="pagebanner-container contactpage">
+      <div class="pagebanner-box contactpage-box">
+        <h1 class="pagebanner-title contactpage-title">Contact Me</h1>
+        <hr class="pagebanner-separator contactpage-separator" />
+      </div>
+    </div>
+
+    <div class="contactpage-content-container">
+      <div class="contactpage-content-box">
+        <h2 class="contactpage-content-title">Got A Question? I'd Love To Hear It From You</h2>
+        <hr class="contactpage-content-separator" />
+        <form id="contact-form" class="contactpage-content-form">
+          <br />
+          <label for="contact-name" class="contactpage-form-labels">Name:</label><br />
+          <input type="text" class="contactpage-form-inputs" id="contact-name" placeholder="Enter your full name" required /><br />
+          <label for="contact-email" class="contactpage-form-labels">Email:</label><br />
+          <input type="email" class="contactpage-form-inputs" id="contact-email" placeholder="Enter your email address" required /><br />
+          <label for="contact-message" class="contactpage-form-labels">Message:</label><br />
+          <textarea class="contactpage-form-textarea" id="contact-message" cols="30" rows="10" placeholder="Enter your message" required></textarea><br />
+          <input type="reset" value="Clear" class="contactpage-form-btns" />
+          <input type="submit" value="Submit" class="contactpage-form-btns" />
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer-bar">
+    <span class="footer-text">&copy; 2025 <a href="index.html" class="footer-link">Ozair Inzaman</a> | All Rights Reserved.</span>
+  </footer>
+
+  <!-- Firebase contact form submission script -->
+  <script type="module">
+    import { handleContactFormSubmission } from './scripts/firebase-init.js';
+
+    const contactForm = document.getElementById('contact-form');
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      handleContactFormSubmission(contactForm);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ozair, inzaman, personal, portfolio, website">
+    <meta name="description" content="Welcome to the personal portfolio of Ozair Inzaman">
+    <title>Ozair Inzaman | Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/desktop.css">
+    <link rel="stylesheet" href="styles/tablet.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/scripts.js"></script>
+    <script type="module" src="scripts/firebase-init.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <a href="index.html" class="nav-logo">Ozair Inzaman</a>
+            <a href="index.html" class="nav-items active">Home</a>
+            <a href="blog.html" class="nav-items">Blog</a>
+            <a href="skills.html" class="nav-items">Skills</a>
+            <a href="services.html" class="nav-items">Services</a>
+            <a href="about.html" class="nav-items">About</a>
+            <a href="contact.html" class="nav-items">Contact</a>
+
+        </nav>
+    </header>
+    <main class="homepage-main">
+        <div style="background-image: url('images/home-page-banner.gif'); opacity: 0.90;"
+            class="pagebanner-container homepage">
+            <div class="pagebanner-box">
+                <h1 class="pagebanner-title">Welcome to the personal portfolio of Ozair Inzaman</h1>
+                <hr class="pagebanner-separator">
+                <span class="pagebanner-text">Feel free to check out my website.</span>
+                <br>
+                <input type="button" onclick="openblogpage()" class="pagebanner-btn" value="Start Here">
+            </div>
+        </div>
+
+
+
+        <!-- blogs section -->
+        <center style="background-color: whitesmoke; padding-bottom: 20px;">
+            <div class="blogsect-content-container">
+                <div class="blogsect-content-title-box">
+                    <h1 class="blogsect-content-title">Recent Blog Posts:</h1>
+                    <hr class="blogsect-content-title-separator">
+                </div>
+
+                <div class="blogsect-content-row">
+
+                    <div class="blogpage-content-cols" style="background-color: #e5ebeb;">
+                        <a href="post-template.html" class="blogpage-content-link">
+                            <img src="posts-images/pic1.jpg" alt="" class="blogpage-content-image" />
+                            <p class="blogpage-content-title">Top 10 Programming Languages To Learn In 2025</p>
+                        </a>
+                    </div>
+
+                    <div class="blogpage-content-cols" style="background-color: #e5ebeb;">
+                        <a href="post-template.html" class="blogpage-content-link">
+                            <img src="posts-images/pic2.jpg" alt="" class="blogpage-content-image" />
+                            <p class="blogpage-content-title">10 Best Front-End Frameworks You Should Learn In 2025</p>
+                        </a>
+                    </div>
+
+                    <div class="blogpage-content-cols" style="background-color: #e5ebeb;">
+                        <a href="post-template.html" class="blogpage-content-link">
+                            <img src="posts-images/pic3.jpg" alt="" class="blogpage-content-image" />
+                            <p class="blogpage-content-title">10 Best Back-End Frameworks You Should Learn In 2025</p>
+                        </a>
+                    </div>
+
+                    <div class="blogpage-content-cols" style="background-color: #e5ebeb;">
+                        <a href="post-template.html" class="blogpage-content-link">
+                            <img src="posts-images/pic4.jpg" alt="" class="blogpage-content-image" />
+                            <p class="blogpage-content-title">10 Best JavaScripts Frameworks To Learn In 2025</p>
+                        </a>
+                    </div>
+
+                    <div class="blogpage-content-cols" style="background-color: #e5ebeb;">
+                        <a href="post-template.html" class="blogpage-content-link">
+                            <img src="posts-images/pic5.jpg" alt="" class="blogpage-content-image" />
+                            <p class="blogpage-content-title">10 Best CSS Frameworks You Should Learn In 2025</p>
+                        </a>
+                    </div>
+
+
+                    <div class="blogpage-content-cols" style="background-color: #e5ebeb;">
+                        <a href="post-template.html" class="blogpage-content-link">
+                            <img src="posts-images/pic6.jpg" alt="" class="blogpage-content-image" />
+                            <p class="blogpage-content-title">10 Reasons You Should Start Learning C++ Programming</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </center>
+
+
+
+
+
+        <!-- skills section -->
+        <center style="background-color: rgb(209, 204, 204); padding-bottom: 20px;">
+            <div class="skillspage-content-container">
+                <div class="skillspage-content-title-box">
+                    <h1 class="skillspage-content-title">Some skills that i have:</h1>
+                    <hr class="skillspage-content-title-separator">
+                </div>
+
+                <div class="skillspage-content-row1">
+                    <div class="skillspage-content-cols1">
+                        <h2 class="skillspage-content-cols-title">Technical Support</h2>
+                        <hr class="skillspage-content-cols1-separator">
+                        <img src="icons/technical-support.png" alt="" class="skillspage-content-img" width="50px" />
+                    </div>
+
+                    <div class="skillspage-content-cols1">
+                        <h2 class="skillspage-content-cols-title">Designing</h2>
+                        <hr class="skillspage-content-cols1-separator">
+                        <img src="icons/designing.png" alt="" class="skillspage-content-img" width="50px" />
+                    </div>
+
+                    <div class="skillspage-content-cols1">
+                        <h2 class="skillspage-content-cols-title">Web Development</h2>
+                        <hr class="skillspage-content-cols1-separator">
+                        <img src="icons/web-development.png" alt="" class="skillspage-content-img" width="50px" />
+                    </div>
+
+                    <div class="skillspage-content-cols1" style="clear: right;">
+                        <h2 class="skillspage-content-cols-title">Android</h2>
+                        <hr class="skillspage-content-cols1-separator">
+                        <img src="icons/android.png" alt="" class="skillspage-content-img" width="50px" />
+                    </div>
+                    <div class="skillspage-content-cols1">
+                        <h2 class="skillspage-content-cols-title">Wordpress</h2>
+                        <hr class="skillspage-content-cols1-separator">
+                        <img src="icons/wordpress.png" alt="" class="skillspage-content-img" width="50px" />
+                    </div>
+                </div>
+
+            </div>
+        </center>
+
+        <!-- services section -->
+        <center style="background-color: whitesmoke; padding-bottom: 20px;">
+            <div class="skillspage-content-container">
+                <div class="skillspage-content-title-box">
+                    <h1 class="skillspage-content-title">Some services that i provide:</h1>
+                    <hr class="skillspage-content-title-separator">
+                </div>
+
+                <div class="skillspage-content-row1">
+
+                    <div class="skillspage-content-cols1">
+                        <h2 class="skillspage-content-cols-title">Software Installation</h2>
+                        <hr class="skillspage-content-cols1-separator">
+                        <img src="icons/software-installation-updates.png" alt="" class="skillspage-content-img"
+                            width="50px" />
+                    </div>
+
+                    <div class="skillspage-content-cols1">
+                        <h2 class="skillspage-content-cols-title">Basic Website Design</h2>
+                        <hr class="skillspage-content-cols1-separator">
+                        <img src="icons/website-design.png" alt="" class="skillspage-content-img" width="50px" />
+                    </div>
+
+                    <div class="skillspage-content-cols1">
+                        <h2 class="skillspage-content-cols-title">Password Management Setup</h2>
+                        <hr class="skillspage-content-cols1-separator">
+                        <img src="icons/password-management-setup.png" alt="" class="skillspage-content-img"
+                            width="50px" />
+                    </div>
+
+                    <div class="skillspage-content-cols1" style="clear: right;">
+                        <h2 class="skillspage-content-cols-title">Data Backup & Organization</h2>
+                        <hr class="skillspage-content-cols1-separator">
+                        <img src="icons/data-backup.png" alt="" class="skillspage-content-img" width="50px" />
+                    </div>
+
+                    <div class="skillspage-content-cols1">
+                        <h2 class="skillspage-content-cols-title">Social Media & Account Setup</h2>
+                        <hr class="skillspage-content-cols1-separator">
+                        <img src="icons/social-media-account-setup.png" alt="" class="skillspage-content-img"
+                            width="50px" />
+                    </div>
+                </div>
+            </div>
+        </center>
+
+        </div>
+
+    </main>
+    <footer class="footer-bar">
+        <span class="footer-text"> &copy; 2025 <a href="index.html" class="footer-link">Ozair Inzaman</a> | All Rights
+            Reserved.</span>
+    </footer>
+</body>
+
+</html>

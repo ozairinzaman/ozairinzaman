@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width:450px) {
+
+    nav.nav-bar a.nav-items {
+        overflow: hidden;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        width: 95%;
+        display: block;
+        float: left;
+        border-top: 2px solid white;
+        padding-top: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    main div.homepage {
+        padding: 240px 380px 240px 160px;
+        background-color: cadetblue;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    main div.servicespage,
+    main div.blogpage,
+    main div.skillspage,
+    main div.aboutpage,
+    main div.contactpage {
+        padding: 280px 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    h1.loginpage-main-title1 {
+        font-size: 26px;
+        margin: auto;
+        font-weight: bold;
+        color: white;
+    }
+
+    label.loginpage-form-labels {
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+    }
+
+    input.loginpage-form-inputs {
+        margin: 10px 0px;
+        padding: 10px;
+        width: 270px;
+        border: 2px solid teal;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    label.loginpage-form-labels {
+        font-weight: bold;
+        color: white;
+        font-size: 19px;
+    }
+
+    div.loginpage-main-box {
+        border: 3px solid white;
+        border-radius: 10px;
+        display: inline-block;
+        width: 325px;
+        margin: 130px 0px;
+        padding: 50px 80px;
+        background-color: black;
+        opacity: 0.95;
+        padding-right: 0px;
+        padding-left: 35px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: 40px;
+    }
+
+    body.loginpage-main-container {
+        background-position: center;
+    }
+
+    h1.signuppage-main-title1 {
+        font-size: 26px;
+        margin: auto;
+        font-weight: bold;
+        color: white;
+    }
+
+    label.signuppage-form-labels {
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+    }
+
+    input.signuppage-form-inputs {
+        margin: 10px 0px;
+        padding: 10px;
+        width: 270px;
+        border: 2px solid teal;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    label.signuppage-form-labels {
+        font-weight: bold;
+        color: white;
+        font-size: 19px;
+    }
+
+    div.signuppage-main-box {
+        border: 3px solid white;
+        border-radius: 10px;
+        display: inline-block;
+        width: 325px;
+        margin: 130px 0px;
+        padding: 50px 80px;
+        background-color: black;
+        opacity: 0.95;
+        padding-right: 0px;
+        padding-left: 35px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: 40px;
+    }
+
+    body.signuppage-main-container {
+        background-position: center;
+    }
+
+    div.pagebanner-box h1.pagebanner-title {
+        margin: 20px 0px;
+        color: white;
+        font-size: 24px;
+        text-align: center;
+        margin-left: 100px;
+        display: flex;
+    }
+
+    div.pagebanner-box hr.pagebanner-separator {
+        margin-left: 100px;
+        width: 100px;
+        border: 2px solid white;
+    }
+
+    span.pagebanner-text {
+        margin: 20px -10px 0px 0px;
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 100px;
+        display: flex;
+    }
+
+    div.pagebanner-box input.pagebanner-btn {
+        margin: 0px 160px;
+        margin-left: 80px;
+        font-size: 16px;
+    }
+
+    div.pagebanner-box h1.pagebanner-title {
+        margin: 20px 0px;
+        color: white;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    span.pagebanner-text {
+        margin: 20px -10px 0px 0px;
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    div.pagebanner-box input.pagebanner-btn {
+        margin: 0px 80px;
+    }
+
+    h1.blogsect-content-title,
+    h1.skillspage-content-title {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    p.blogpage-content-title,
+    h2.skillspage-content-cols-title {
+        font-size: 18px;
+    }
+
+    div.pagebanner-box h1.pagebanner-title {
+        margin: 20px 0px;
+        color: white;
+        font-size: 26px;
+        text-align: center;
+        margin-left: 100px;
+        display: flex;
+    }
+
+    div.pagebanner-box hr.pagebanner-separator {
+        margin: 20px 0px;
+        color: white;
+        margin-left: 120px;
+        display: block;
+    }
+
+    span.pagebanner-text {
+        margin: 20px -10px 0px 0px;
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 120px;
+    }
+
+    div.pagebanner-box input.pagebanner-btn {
+        margin: 0px 80px;
+        font-size: 16px;
+    }
+
+    h2.aboutpage-content-title-right {
+        margin: 20px;
+        font-size: 25px;
+    }
+
+    p.aboutpage-content-info-right {
+        margin: 20px;
+        font-size: 17px;
+    }
+
+    a.aboutpage-content-info-links-socialmedia {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 17px;
+        margin-left: 10px;
+        color: #008080;
+    }
+
+    div.aboutpage-content-right {
+        display: inline-block;
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 20px;
+        background-color: #beb5b7;
+        clear: right;
+    }
+
+    div.blogposttemplate-content-box {
+        width: 302px;
+        margin-left: 100px;
+        padding-right: 107px;
+    }
+
+    h1.blogposttemplate-content-h1title {
+        font-size: 24px;
+        padding-bottom: 20px;
+        margin-top: -10px;
+        width: 380px;
+    }
+
+    img.blogposttemplate-content-image {
+        width: 122%;
+    }
+
+    p.blogposttemplate-content-box-text {
+        font-size: 17px;
+        padding-bottom: 20px;
+        text-align: justify;
+        width: 360px;
+    }
+
+    footer.footer-bar {
+        overflow: hidden;
+        background-color: black;
+        color: white;
+        height: 25px;
+        text-align: center;
+        padding: 30px 0px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    main div.aboutpage,
+    main div.contactpage {
+        padding: 280px 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    div.aboutpage div.aboutpage-box,
+    div.contactpage div.contactpage-box {
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    h2.contactpage-content-title {
+        font-size: 20px;
+        padding: 30px 0px 30px 0px;
+        text-align: center;
+    }
+
+    input.contactpage-form-inputs {
+        margin: 10px;
+        padding: 10px;
+        width: 380px;
+        border: 2px solid teal;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+
+    textarea.contactpage-form-textarea {
+        margin: 10px;
+        width: 400px;
+        border: 2px solid teal;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+
+    input.contactpage-form-inputs {
+        margin: 10px;
+        padding: 10px;
+        width: 380px;
+        border: 2px solid teal;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+
+    textarea.contactpage-form-textarea {
+        margin: 10px;
+        width: 400px;
+        border: 2px solid teal;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+
+    div.aboutpage-content-left {
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #cfb7b7;
+        padding-left: 0px;
+        height: 430px;
+    }
+
+    img.aboutpage-content-image-left {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 50px;
+        width: 300px;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+
+    div.contactsuccesspage-main-box {
+        width: 200px;
+        padding: 20px 100px;
+        margin-left: 60px;
+    }
+
+    h1.contactsuccesspage-main-title {
+        font-size: 32px;
+        margin: auto;
+        font-weight: bold;
+        color: white;
+    }
+
+    div.contactsuccesspage-main-box {
+        width: 115px;
+        padding: 20px 100px;
+        margin-left: 60px;
+    }
+
+    div.signupsuccesspage-main-box {
+        width: 200px;
+        padding: 20px 100px;
+        margin-left: 60px;
+    }
+
+    h1.signupsuccesspage-main-title {
+        font-size: 32px;
+        margin: auto;
+        font-weight: bold;
+        color: white;
+    }
+
+    div.signupsuccesspage-main-box {
+        width: 115px;
+        padding: 20px 100px;
+        margin-left: 60px;
+    }
+
+}

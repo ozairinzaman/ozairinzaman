@@ -1,0 +1,809 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+header nav.nav-bar {
+    background-color: teal;
+    height: 85px;
+}
+
+nav.nav-bar a.nav-logo {
+    color: white;
+    text-decoration: none;
+    margin: 70px;
+    display: inline-block;
+    margin: 20px;
+    font-size: 22px;
+    border: 3px solid white;
+    padding: 10px;
+}
+
+nav.nav-bar a.nav-logo:hover {
+    background: white;
+    color: teal;
+}
+
+nav.nav-bar a.nav-items {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0px 10px;
+}
+
+nav.nav-bar a.nav-logo,
+a.nav-items {
+    font-weight: bold;
+}
+
+nav.nav-bar a.nav-items:hover {
+    color: azure;
+    text-decoration: underline dotted;
+}
+
+main div.homepage {
+    padding: 325px 340px;
+    background-color: cadetblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.homepage div.pagebanner-box {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.80;
+    border-radius: 10px;
+}
+
+div.pagebanner-box h1.pagebanner-title {
+    margin: 20px 0px;
+    color: white;
+}
+
+div.pagebanner-box hr.pagebanner-separator {
+    width: 20%;
+    border: 2px solid white;
+    margin: auto;
+}
+
+span.pagebanner-text {
+    margin: 20px 260px;
+    margin: 20px 130px 0px 260px;
+    display: block;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+div.pagebanner-box input.pagebanner-btn {
+    margin: 0px 330px;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: teal;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+div.pagebanner-box input.pagebanner-btn:hover {
+    background-color: white;
+    color: teal;
+    cursor: pointer;
+}
+
+.homepage-content-container {
+    background-color: #e9e9e9;
+    height: fit-content;
+}
+
+div.blogsect-content-container {
+    display: block;
+    height: max-content;
+    margin: 0 auto;
+}
+
+div.blogsect-content-title-box {
+    padding: 25px;
+}
+
+h1.blogsect-content-title {
+    text-align: center;
+}
+
+hr.blogsect-content-title-separator {
+    width: 10%;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+div.blogsectpage-content-row {
+    margin: 0 auto;
+    display: block;
+}
+
+main div.blogpage {
+    padding: 325px 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.blogpage div.blogpage-box {
+    border: 1px solid black;
+    background-color: black;
+    padding: 10px 0px 30px 0px;
+    opacity: 0.80;
+    border-radius: 10px;
+}
+
+div.pagebanner-box h1.blogpage-title {
+    text-align: center;
+}
+
+div.pagebanner-box hr.blogpage-separator {
+    width: 15%;
+    border: 2px solid white;
+    margin: auto;
+}
+
+div.blogpage-content-container {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    background-color: #ede6e6;
+}
+
+div.blogpage-content-rows {
+    display: block;
+    padding: 20px;
+}
+
+div.blogpage-content-cols {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+
+img.blogpage-content-image {
+    width: 100%;
+    height: auto;
+}
+
+a.blogpage-content-link {
+    color: black;
+}
+
+a.blogpage-content-link:hover {
+    color: teal;
+}
+
+p.blogpage-content-title {
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 22px;
+    display: inline-block;
+}
+
+main div.skillspage {
+    padding: 325px 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.skillspage div.skillspage-box {
+    border: 1px solid black;
+    background-color: black;
+    padding: 10px 0px 30px 0px;
+    opacity: 0.80;
+    border-radius: 10px;
+}
+
+div.pagebanner-box h1.skillspage-title {
+    text-align: center;
+}
+
+div.pagebanner-box hr.skillspage-separator {
+    width: 15%;
+    border: 2px solid white;
+    margin: auto;
+}
+
+main.skillspage-main {
+    background-color: #c0c0c0;
+}
+
+div.skillspage-content-container {
+    display: block;
+    height: max-content;
+    margin: 0 auto;
+}
+
+div.skillspage-content-title-box {
+    padding: 25px;
+}
+
+h1.skillspage-content-title {
+    text-align: center;
+}
+
+hr.skillspage-content-title-separator {
+    width: 10%;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+div.skillspage-content-row1 {
+    margin: 0 auto;
+    display: block;
+}
+
+div.skillspage-content-cols1 {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    width: 250px;
+    padding-bottom: 10px;
+    margin: 10px;
+    background-color: #d7cdcd;
+}
+
+h2.skillspage-content-cols-title {
+    text-align: center;
+    padding: 10px;
+}
+
+hr.skillspage-content-cols1-separator {
+    margin: 0 auto;
+    width: 50%;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+img.skillspage-content-img {
+    margin: auto;
+    display: block;
+    width: 35%;
+}
+
+main.blogposttemplate-main {
+    background-color: #d7cdcd;
+}
+
+div.blogposttemplate-content-box {
+    padding: 40px;
+    display: inline-block;
+    margin: 0 auto;
+    width: 1100px;
+    margin-left: 150px;
+    height: auto;
+    background: #c1c1c1;
+}
+
+h1.blogposttemplate-content-h1title {
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+h2.blogposttemplate-content-h2title {
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+h3.blogposttemplate-content-h3title {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+h4.blogposttemplate-content-h4title {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+p.blogposttemplate-content-box-text {
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+main div.servicespage {
+    padding: 325px 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.servicespage div.servicespage-box {
+    border: 1px solid black;
+    background-color: black;
+    padding: 10px 0px 30px 0px;
+    opacity: 0.80;
+    border-radius: 10px;
+}
+
+div.pagebanner-box h1.servicespage-title {
+    text-align: center;
+    font-size: 28px;
+}
+
+div.pagebanner-box hr.servicespage-separator {
+    width: 15%;
+    border: 2px solid white;
+    margin: auto;
+}
+
+main div.aboutpage {
+    padding: 325px 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.aboutpage div.aboutpage-box {
+    border: 1px solid black;
+    background-color: black;
+    padding: 10px 0px 30px 0px;
+    opacity: 0.80;
+    border-radius: 10px;
+}
+
+div.pagebanner-box h1.aboutpage-title {
+    text-align: center;
+}
+
+div.pagebanner-box hr.aboutpage-separator {
+    width: 15%;
+    border: 2px solid white;
+    margin: auto;
+}
+
+div.aboutpage-content-container {
+    display: block;
+    height: max-content;
+}
+
+div.aboutpage-content-left {
+    display: inline;
+    width: 35%;
+    float: left;
+    height: 500px;
+    background-color: #cfb7b7;
+}
+
+img.aboutpage-content-image-left {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+}
+
+div.aboutpage-content-right {
+    display: inline;
+    width: 65%;
+    float: left;
+    height: 500px;
+    background-color: #beb5b7;
+    clear: right;
+}
+
+h2.aboutpage-content-title-right {
+    margin: 20px;
+    font-size: 28px;
+}
+
+hr.aboutpage-content-separator-right {
+    width: 15%;
+    margin-left: 25px;
+    border: 2px solid black;
+}
+
+p.aboutpage-content-info-right {
+    margin: 20px;
+    font-size: 20px;
+}
+
+a.aboutpage-content-info-link-right {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+a.aboutpage-content-info-link-right:hover {
+    color: #008080;
+}
+
+a.aboutpage-content-info-links-socialmedia {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #008080;
+}
+
+a.aboutpage-content-info-links-socialmedia:hover {
+    font-weight: bold;
+    color: black;
+}
+
+main div.contactpage {
+    padding: 325px 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.contactpage div.contactpage-box {
+    border: 1px solid black;
+    background-color: black;
+    padding: 10px 0px 30px 0px;
+    opacity: 0.80;
+    border-radius: 10px;
+}
+
+div.pagebanner-box h1.contactpage-title {
+    text-align: center;
+}
+
+div.pagebanner-box hr.contactpage-separator {
+    width: 15%;
+    border: 2px solid white;
+    margin: auto;
+}
+
+div.contactpage-content-container {
+    background-color: #c9c9c9;
+    height: max-content;
+    margin: auto;
+    padding-top: 20px;
+}
+
+form.contactpage-content-form {
+    display: block;
+}
+
+h2.contactpage-content-title {
+    font-size: 28px;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+hr.contactpage-content-separator {
+    width: 10%;
+    border: 2px solid black;
+    margin: auto;
+}
+
+form.contactpage-content-form {
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 10px;
+    padding: 10px 0px 30px 0px;
+}
+
+label.contactpage-form-labels {
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+input.contactpage-form-inputs {
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    font-size: 16px;
+    border: 2px solid teal;
+    border-radius: 3px;
+}
+
+textarea.contactpage-form-textarea {
+    margin: 10px;
+    width: 520px;
+    border: 2px solid teal;
+    border-radius: 3px;
+}
+
+input.contactpage-form-btns {
+    margin: 10px;
+    padding: 15px 40px 15px 40px;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+input.contactpage-form-btns:hover {
+    color: teal;
+    background-color: white;
+    border: 2px solid teal;
+}
+
+body.contactsuccesspage-main-container {
+    margin: 0 auto;
+    width: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.contactsuccesspage-main-box {
+    border: 3px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 465px;
+    margin: 180px 0px;
+    padding: 50px 200px;
+    background-color: black;
+    opacity: 0.95;
+}
+
+h1.contactsuccesspage-main-title {
+    font-size: 38px;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+}
+
+p.contactsuccesspage-main-message {
+    color: white;
+    font-size: 20px;
+}
+
+input.contactsuccesspage-main-returnhome-btn {
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: teal;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+input.contactsuccesspage-main-returnhome-btn:hover {
+    background-color: white;
+    color: teal;
+    cursor: pointer;
+}
+
+body.signupsuccesspage-main-container {
+    margin: 0 auto;
+    width: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.signupsuccesspage-main-box {
+    border: 3px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 465px;
+    margin: 180px 0px;
+    padding: 50px 200px;
+    background-color: black;
+    opacity: 0.95;
+}
+
+h1.signupuccesspage-main-title {
+    font-size: 38px;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+}
+
+p.signupsuccesspage-main-message {
+    color: white;
+    font-size: 20px;
+}
+
+input.signupsuccesspage-main-returnhome-btn {
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: teal;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+input.signupsuccesspage-main-returnhome-btn:hover {
+    background-color: white;
+    color: teal;
+    cursor: pointer;
+}
+
+body.loginpage-main-container {
+    margin: 0 auto;
+    background-size: cover;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.loginpage-main-box {
+    border: 3px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 450px;
+    margin: 130px 0px;
+    padding: 50px 80px;
+    background-color: black;
+    opacity: 0.95;
+}
+
+h1.loginpage-main-title1 {
+    font-size: 38px;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+}
+
+hr.loginpage-content-separator {
+    width: 35%;
+    border: 2px solid white;
+    margin-top: 15px;
+}
+
+label.loginpage-form-labels {
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+}
+
+input.loginpage-form-inputs {
+    margin: 10px 0px;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid teal;
+    border-radius: 5px;
+}
+
+input.loginpage-form-btns {
+    margin: 5px;
+    padding: 15px 40px 15px 40px;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+input.loginpage-form-btns:hover {
+    color: teal;
+    background-color: white;
+    border: 2px solid teal;
+}
+
+body.user-dashboard-main-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 800px;
+    padding: 30px;
+}
+
+div.user-dashboard-main-content {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 700px;
+    height: fit-content;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.95;
+    margin: auto;
+}
+
+h1.user-dashboard-content-title {
+    text-align: center;
+    color: white;
+}
+
+input.user-dashboard-content-button {
+    margin: 10px;
+    margin-left: 225px;
+    padding: 15px 40px 15px 40px;
+    text-align: center;
+    width: 250px;
+    background-color: white;
+    color: teal;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+input.user-dashboard-content-button:hover {
+    color: white;
+    background-color: teal;
+    border: 2px solid teal;
+    cursor: pointer;
+}
+
+body.signuppage-main-container {
+    margin: 0 auto;
+    background-size: cover;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.signuppage-main-box {
+    border: 3px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 450px;
+    margin: 130px 0px;
+    padding: 50px 80px;
+    background-color: black;
+    opacity: 0.95;
+}
+
+h1.signuppage-main-title1 {
+    font-size: 38px;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+}
+
+hr.signuppage-content-separator {
+    width: 35%;
+    border: 2px solid white;
+    margin-top: 15px;
+}
+
+label.signuppage-form-labels {
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+}
+
+input.signuppage-form-inputs {
+    margin: 10px 0px;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid teal;
+    border-radius: 5px;
+}
+
+input.signuppage-form-btns {
+    margin: 5px;
+    padding: 15px 40px 15px 40px;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+input.signuppage-form-btns:hover {
+    color: teal;
+    background-color: white;
+    border: 2px solid teal;
+}
+
+footer.footer-bar {
+    background-color: black;
+    color: white;
+    height: 25px;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+a.footer-link:hover {
+    color: teal;
+}

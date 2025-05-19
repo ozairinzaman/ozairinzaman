@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1350px) {
+
+    div.pagebanner-box h1.pagebanner-title {
+        margin: 20px 112px;
+        color: white;
+    }
+
+    span.pagebanner-text {
+        margin: 20px 130px 0px 118px;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    div.pagebanner-box input.pagebanner-btn {
+        margin: 0px 190px;
+    }
+
+    div.aboutpage-content-left {
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #cfb7b7;
+    }
+
+    div.aboutpage-content-right {
+        display: inline-block;
+        width: 100%;
+        height: 525px;
+        background-color: #beb5b7;
+        clear: right;
+    }
+
+    div.blogposttemplate-content-box {
+        width: 1000px;
+    }
+    
+}
+
+@media only screen and (max-width: 1250px) {
+
+    div.blogposttemplate-content-box {
+        width: 850px;
+    }
+
+    h1.blogposttemplate-content-h1title {
+        font-size: 26px;
+        padding-bottom: 30px;
+    }
+    
+    img.blogposttemplate-content-image {
+        width: 90%;
+    }
+
+    h2.blogposttemplate-content-h2title {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    p.blogposttemplate-content-box-text {
+        font-size: 18px;
+        padding-bottom: 20px;
+        text-align: justify;
+    }
+
+    h3.blogposttemplate-content-h3title {
+        font-size: 23px;
+        padding-bottom: 10px;
+    }
+
+    h4.blogposttemplate-content-h4title {
+        font-size: 23px;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 1150px) {
+ 
+    main.blogposttemplate-main {
+        background-color: #d7cdcd;
+        margin-left: -100px;
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+    
+    div.blogposttemplate-content-box {
+        width: 750px;
+    }
+
+    div.contactsuccesspage-main-box {
+        width: 300px;
+        padding: 20px 100px;
+        margin-left: 60px;
+    }
+
+    h1.contactsuccesspage-main-title {
+        font-size: 36px;
+        margin: auto;
+        font-weight: bold;
+        color: white;
+    }
+
+    p.contactsuccesspage-main-message {
+        color: white;
+        font-size: 19px;
+    }
+
+    input.contactsuccesspage-main-returnhome-btn {
+        padding: 15px 25px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: teal;
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+
+    div.signupsuccesspage-main-box {
+        width: 300px;
+        padding: 20px 100px;
+        margin-left: 60px;
+    }
+
+    h1.signupsuccesspage-main-title {
+        font-size: 36px;
+        margin: auto;
+        font-weight: bold;
+        color: white;
+    }
+
+    p.signupsuccesspage-main-message {
+        color: white;
+        font-size: 19px;
+    }
+
+    input.signupsuccesspage-main-returnhome-btn {
+        padding: 15px 25px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: teal;
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+
+}
