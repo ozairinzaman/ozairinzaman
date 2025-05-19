@@ -1,0 +1,43 @@
+# Ignore firebase-init.js, scripts.js, and signup.js
+firebase-init.js
+scripts.js
+signup.js
+
+# Other common ignore patterns to protect sensitive data
+.env
+.env.local
+.env.*.local
+
+# Node modules (for Node.js projects)
+node_modules/
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Compiled output directories
+/dist
+/build
+/public
+
+# Logs
+*.log
+*.log.*
+
+# Operating System files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Firebase config files (should not be in source control)
+firebase-config.js
+
+# Miscellaneous files
+*.bak
+*.tmp
+*.swp
